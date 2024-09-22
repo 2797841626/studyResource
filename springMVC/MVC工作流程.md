@@ -1,0 +1,34 @@
+![[Pasted image 20240218174843.png]]
+DispatcherServlet:前置控制器，负责调度其他组件的执行，可以降低不同组件之间的耦合性，是整个Spring MVC的核心模块
+Handler:处理器，完成具体的业务逻辑，相当于Servlet
+HandlerMapping:DispatcherServlet是通过 HandlerMapping把请求映射到不同的Handler
+HandlerInterceptor:处理器拦截器，是一个接口，如果我们需要进行一些拦截处理，可以通过实现该接口完成
+HandlerExecutionChain:处理器执行链，包括两部分内容:Handler和HandlerInterceptor(系统会有一个默认的HandlerInterceptor,如果有额外拦截处理，可以添加拦截器进行设置)
+HandlerAdapter:处理器适配器，Handler执行业务方法之前，需要进行一系列的操作包括表单的数据验证、数据类型转换、把表单数据封装到POJO等，这些一系列的操作都是由HandlerAdapter完成，DispatcherServlet通过HandlerAdapter执行不同的Handler
+ModelAndView:封装了模型数据和视图信息，作为Handler的处理结果，返回给DispatcherServlet
+ViewResolver:视图解析器,DispatcherServlet通过它把逻辑视图解析为物理视图，最终把渲染的结果响应给客户端
+
+
+
+客户端请求被DispatcherServlet接收
+根据HandlerMapping映射到Handler
+生成Handler和HandlerInterceptor
+Handler和HandlerInterceptor以HandlerExecutionChain的形式一并返回给DispatcherServlet
+DispatcherServlet通过HandlerAdapter调用Handler的方法完成业务逻辑处理
+返回一个ModelAndView对象给DispatcherServlet
+DispatcherServlet把获取的ModelAndView对象传给ViewResolver视图解析器，把逻辑视图解析成物理视图
+ViewResolver返回一个View进行视图渲染(把模型填充到视图中)
+DispatcherServlet把渲染后的视图响应给客户端
+
+
+Spring MVC可以自动完成数据类型转换，该工作是由HandlerAdapter来完成的
+
+
+主体对象可以没有无参构造器，但是级联对象必须要有无参构造器
+![[Pasted image 20240218180329.png]]
+![[Pasted image 20240218180346.png]]
+即上方的address类需要无参构造器
+![[Pasted image 20240218180549.png]]
+
+
+![[Pasted image 20240218180724.png]]

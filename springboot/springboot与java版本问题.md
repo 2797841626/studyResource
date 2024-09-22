@@ -1,0 +1,2 @@
+java-17才能支持springboot3.0以上版本
+idea2022及以上版本才能支持java17
