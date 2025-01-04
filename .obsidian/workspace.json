@@ -4,87 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "8df113ba178a6116",
+        "id": "bd817159d9ec76c4",
         "type": "tabs",
         "children": [
           {
-            "id": "4dd49ec61eeb0ca2",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "08a66a94ecc5660b",
+            "id": "3653dd9142f81f1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机网络/传输层.md",
+                "file": "git/建立本地仓库并连接远程仓库.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "9ed578ef9a669d50",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "计算机视觉/pnp坐标系.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5203eafbf79758fe",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "计算机视觉/4.png"
-              }
-            }
-          },
-          {
-            "id": "825eb309ecdfdaf1",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "计算机视觉/3.jpg"
-              }
-            }
-          },
-          {
-            "id": "89105eba9727a41e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "c++编译/c++编译.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d7484d25c99c2955",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "算法回忆录/搜索算法.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "建立本地仓库并连接远程仓库"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -119,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -127,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -150,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "c++编译/c++编译.md",
+                "file": "算法回忆录/链表修改题判断循环停止条件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 链表修改题判断循环停止条件"
             }
           },
           {
@@ -167,10 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "c++编译/c++编译.md",
+                "file": "算法回忆录/链表修改题判断循环停止条件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 链表修改题判断循环停止条件"
             }
           },
           {
@@ -181,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -190,8 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "c++编译/c++编译.md"
-              }
+                "file": "算法回忆录/链表修改题判断循环停止条件.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 链表修改题判断循环停止条件"
             }
           }
         ]
@@ -211,53 +162,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "89105eba9727a41e",
+  "active": "21d661d3a5b4561a",
   "lastOpenFiles": [
+    "0,2.md",
+    "git/建立本地仓库并连接远程仓库.md",
+    "mysql/IO代价估计.md",
+    "mysql/并行化.md",
+    "mysql/可扩展哈希.md",
+    "Pasted image 20250102201219.png",
+    "c++/升序降序的自定义函数.md",
+    "c++/拷贝.md",
+    "c++/函数指针.md",
     "c++/c++的String类.md",
-    "c++/c++字符串.md",
-    "算法回忆录/KMP字符串匹配.md",
-    "算法回忆录/循环数组负数取余.md",
+    "c++/char.md",
+    "c++/case语句注意点.md",
     "c++/c++数组.md",
-    "存储/8-10bit编码.md",
-    "算法回忆录/链表修改题判断循环停止条件.md",
     "c++/哈希表.md",
-    "算法回忆录/提速小技巧.md",
-    "c++/二级指针.md",
-    "c++/迭代此iterator.md",
-    "c++/常用函数.md",
-    "算法回忆录/二叉树思考.md",
-    "算法回忆录/并查集.md",
-    "算法回忆录/搜索算法.md",
-    "算法回忆录/区间.md",
-    "存储/TLC的读取.md",
-    "存储/SLC,MLC,TLC.md",
-    "存储/闪存的误码率.md",
-    "Pasted image 20240912170028.png",
-    "Pasted image 20240912170011.png",
-    "Pasted image 20240912164730.png",
-    "Pasted image 20240912164710.png",
-    "Pasted image 20240912164657.png",
-    "存储/论文学习笔记/磨损均衡算法.md",
-    "存储/论文学习笔记/Minato.md",
-    "存储/论文学习笔记/cocktail.md",
-    "存储/存储系统传输中的协议.md",
-    "存储/基本结构辨析.md",
-    "存储/有点绕.md",
-    "存储/MMIO.md",
+    "mysql/B+树.md",
+    "Pasted image 20241226225711.png",
+    "Pasted image 20241226225652.png",
+    "可扩展哈希1.png",
+    "高级计算机网络 1.zip",
+    "高级计算机网络.zip",
+    "计算机视觉/3.jpg",
     "计算机视觉/4.png",
-    "Pasted image 20240826222417.png",
+    "计算机视觉/pnp坐标系.md",
+    "计算机网络/传输层.md",
+    "算法回忆录/取余小技巧.md",
+    "算法回忆录/动态规划.md",
+    "算法回忆录/滑动窗口.md",
+    "算法回忆录/二分查找.md",
+    "算法回忆录/快慢指针对于有环链表的理解.md",
+    "算法回忆录/贪心思想.md",
+    "算法回忆录/提速小技巧.md",
+    "算法回忆录/图论技巧.md",
+    "算法回忆录/位运算判断每一位是否为1.md",
+    "算法回忆录/循环数组.md",
+    "深入理解分布式系统笔记",
+    "1728462843737.jpg",
+    "QQ图片20241009163544.jpg",
+    "Pasted image 20240912170028.png",
+    "Pasted image 20240912164730.png",
+    "存储/深入理解分布式计算",
+    "存储/数据存储技术笔记",
     "存储/论文学习笔记/磨损均衡",
-    "存储/论文学习笔记/minato.png",
-    "存储/论文学习笔记/Pasted image 20240824145034.png",
-    "存储/论文学习笔记/cocktail.png",
     "存储/论文学习笔记",
     "存储",
     "算法回忆录",
-    "c++编译",
-    "视觉组培训作业",
-    "新建文件夹",
-    "uniapp",
-    "计算机视觉",
-    "git"
+    "c++编译"
   ]
 }

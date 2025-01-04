@@ -1,4 +1,4 @@
-一个存储单元存储1bit数据的NAND FLASH，我们叫它为SLC (Single Level Cell)，2bit为MLC (Multiple Level Cell) ，3bit为TLC (Triple Level Cell)。
+一个存储单元（cell）存储1bit数据的NAND FLASH，我们叫它为SLC (Single Level Cell)，2bit为MLC (Multiple Level Cell) ，3bit为TLC (Triple Level Cell)。
 
 对SLC来说，一个存储单元存储两种状态，浮栅极里面的电子多于某个参考值的时候，我们把它采样为0，否则，就判为1.
 

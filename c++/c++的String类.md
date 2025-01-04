@@ -18,7 +18,7 @@ string的长度：s.size();s.length();
 - string.at(1)——同上
 -
 string类的裁剪
-s.substr(start,end);
+s.substr(start,length);
 
 string.replace(i,j,"a")将i到j的字符串替换成字符串a，注意j为开区间 
 
@@ -44,4 +44,42 @@ public:
         return ans;
     }
 };
+```
+
+```cpp
+        //1.尾部插入及删除数字
+	vec2.push_back(1);  //尾部插入元素
+        vec2.pop_back()     //删除尾部元素
+ 
+	//2.使用下标访问元素，
+	cout << vec2[0] << endl; //记住下标是从0开始的。
+ 
+	//3.使用迭代器访问元素.
+	vector<int>::iterator it;
+	for (it = vec2.begin(); it != vec2.end(); it++)
+		cout << *it << endl;
+ 
+	//4.插入元素：    
+	vec2.insert(vec2.begin() + i, a); //在第i + 1个元素前面插入a;
+ 
+	
+	//5.删除元素：    
+	vec2.erase(vec2.begin() + 2); //删除第3个元素
+ 
+	vec2.erase(vec2.begin() + i, vec2.end() + j); //删除区间[i, j - 1]; 区间从0开始
+ 
+	//6.求数组大小:
+	vec2.size();
+ 
+	//7.清空 : 
+	vec2.clear();
+	//四种在末尾添加元素的方式
+	string a = "abc";
+	//+既可以char，也可以string，但注意的是放char时只能有一个字母
+	a = a+'a';  
+	a=a+"bcd";  
+	//push_back()放的是char
+	a.push_back('a');  
+	//append放置的是string类
+	a.append("b");
 ```
